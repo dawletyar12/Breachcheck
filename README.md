@@ -17,10 +17,15 @@ The k-anonymity method is used: only the first 5 characters of the password’s 
 
 This ensures privacy of the check.
 
- Run locally
+Run locally
 git clone https://github.com/dawletyar12/dawletyar.git
+
 cd dawletyar
+
 python -m venv venv
+
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python app.py
